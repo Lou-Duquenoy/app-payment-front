@@ -1,0 +1,282 @@
+.banner {
+  height: 150px;
+  background-color: #00b9c7;
+  display: flex;
+  align-items: center;
+  background-image: url(../../public/explication.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  margin-bottom: 60px;
+}
+.pageTitleContent {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .banner {
+    background-position: center right -480px;
+    background-size: cover;
+  }
+  .pageTitleContent {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .companyInfo {
+    display: block !important;
+    max-width: 714px !important;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+  .banner {
+    background-position: center right -256px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .banner {
+    background-image: none !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .pageTitleContent {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.pageTitleContent h1 {
+  color: #ffffff;
+  font-size: 29px;
+  margin-bottom: 5px;
+}
+.pageTitleContent p {
+  color: #ffffff;
+}
+.companyInfo {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  max-width: 1200px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.ciContent {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.ciContent h2 {
+  font-family: "Jost";
+  font-size: 28px;
+  color: #2d2d2d;
+  font-weight: 500;
+  margin-bottom: 30px;
+  line-height: 39px;
+}
+.ciContent p {
+  line-height: 23px;
+}
+.btn {
+  height: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  padding: 0 25px;
+  color: white;
+  outline: 0;
+  outline-offset: 0;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  background-color: #01b9c7;
+}
+.ytb {
+  background-image: url(https://i.ytimg.com/vi/qaBFJS6Xa2Y/maxresdefault.jpg);
+}
+.thWhite {
+  background-color: white;
+}
+.thGrey {
+  background-color: #f3f4f9;
+}
+.thTitle {
+  text-align: left;
+  font-size: 22px;
+  width: 17rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+.gridItemBlue {
+  background-color: #00b5c3;
+}
+.gridItemBlueShadow {
+  background-color: rgba(0, 181, 195, 0.9);
+}
+.gridItemRed {
+  background-color: #e35882;
+}
+.gridItemRedShadow {
+  background-color: rgba(227, 88, 130, 0.9);
+}
+.gridItemYellow {
+  background-color: #f4af02;
+}
+.gridItemYellowShadow {
+  background-color: rgba(244, 175, 2, 0.9);
+}
+.gridItemBlack {
+  background-color: #24262d;
+}
+.gridItemBlackShadow {
+  background-color: rgba(36, 38, 45, 0.9);
+}
+
+.gridItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.9rem 8px;
+}
+.gridItem img {
+  width: 1.6rem;
+  height: 1.6rem;
+  background: white;
+  padding: 0.3rem;
+  border-radius: 50px;
+}
+.engagement {
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+.format {
+  font-size: 24px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.formatTop {
+  font-size: 20px;
+}
+.rowGrey {
+  background-color: #f3f4f9;
+}
+.gridItemTitle {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding-top: 0;
+  font-weight: 600;
+  padding-bottom: 0;
+}
+.gridItemCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.gridItemTopCenter {
+  padding: 0.5rem 8px !important;
+}
+.gridRow {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-left: 0.8rem;
+}
+.gridRowTop {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.gridRowTopRight {
+  border-top-right-radius: 30px;
+}
+.gridItemRowLeft {
+  width: 19rem;
+  justify-content: start;
+  margin-right: 2rem;
+}
+.itemMobile {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 1rem;
+}
+.borderOptions {
+  padding: 0.8rem 0 0.8rem 0;
+  border-bottom: 1px solid #d7d7d7;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.borderOptions p {
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 700;
+}
+.borderOptions span {
+  color: #00b5c3;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+}
+.gridItemRowRight p {
+  color: white;
+}
+.buttonContainer {
+  display: flex;
+  margin-left: 21.8rem;
+  margin-top: 0.1rem;
+  justify-content: space-around;
+}
+.button {
+  padding: 1rem;
+  border: none;
+  width: 11.8rem;
+  margin-top: 0.1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #fff;
+}
+.buttonBlue {
+  background-color: #00b5c3;
+}
+.buttonRed {
+  background-color: #e35882;
+}
+.buttonYellow {
+  background-color: #f4af02;
+}
+.buttonBlack {
+  background-color: #24262d;
+}
+.notice {
+  font-size: 0.8rem;
+  color: black;
+  margin-left: 0.2rem;
+}
+.conditions {
+  margin-top: 2rem;
+}
+.conditions p {
+  margin-bottom: -7px;
+  font-size: 13px;
+}
+.accordionContent{
+  display: block;
+}
+.accordionContentHidden{
+  display: none;
+}
+.tabDesktop{
+  display: block;
+}
+.tabMobile{
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  .tabDesktop{
+    display: none;
+  }
+  .tabMobile{
+    display: block;
+  }
+}
